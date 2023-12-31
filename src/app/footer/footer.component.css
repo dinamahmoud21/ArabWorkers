@@ -1,0 +1,32 @@
+.footer {
+    border-top:2px solid white
+}
+.visa-image img {
+    width: 48px;
+}
+.footer-item{
+    list-style: none;
+    line-height:3;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.footer-item a{
+    text-decoration: none;
+    color:#151515
+}
+.bottom-footer p{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    margin-top:5%;
+    color:#151515
+}
+.social img{
+    width:32px
+
+}

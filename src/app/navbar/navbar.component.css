@@ -1,0 +1,81 @@
+/*nav bar*/
+@media (min-width:600px){
+    .navbar{
+        height:50px
+    }
+}
+.navbar{
+    background-color: white;
+
+}
+dropdown-menu {
+    animation: 0.5s slideup;
+  }
+  
+  @keyframes slideup {
+    from {
+      transform: translateY(10%);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .nav-link  , .navbar-brand{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight:bold;
+    font-size:12px
+    
+  }
+  .navbar-brand{
+    color:#463a7c;
+    font-size:18px;
+    font-weight: bold;
+  }
+  .nav-link{
+    color:black;
+    padding: 2%;
+  
+  }
+  .navbar .material-icons{
+    font-size:12px
+  }
+  .lang-border{
+    border:1px solid #463a7c;
+    border-radius: 5px;
+    margin-top:5%;
+    color:#463a7c;
+  }
+  .lang{
+    margin-left:10px
+  }
+  .search{
+    position: absolute;
+    top:10%;
+    left:50% ;
+    font-size:15px
+  }
+  .dropdown-toggle::after{
+   
+   position: absolute ;
+   top:30%;
+   float:right;
+   right:-3px
+    }
+    .profile span{
+      font-size: 11px;
+    }
+    .profile img{
+      margin-right:10px;
+      margin-top:-22%
+    }
+    .dollar{
+      background-color: #463a7c;
+      color:white;
+      padding: 1%;
+      border-radius: 5px;
+    }
+  /*end navbar*/

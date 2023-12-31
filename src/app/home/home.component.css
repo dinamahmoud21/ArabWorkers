@@ -1,0 +1,180 @@
+/*Home page */
+
+.data-Title{
+    margin-top: 15%;
+}
+.subTitle{
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight:bold;
+    color:#151515
+}
+.start{
+    background-color: #463a7c;
+    color: white ;
+    width: 40%;
+    text-align: center;
+    margin-top:5%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+}
+.small-data{
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    color:#151515
+}
+.image{
+position: relative;
+width:100%   
+}
+.caption{
+    position: absolute;
+    z-index: 10000;
+    bottom: 3%;
+    background-color: rgb(41, 41, 41, 0.2);
+    width: 90%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    right:4%;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.075)
+}
+.worker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:4%
+
+}
+.worker span{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+   
+    font-size: 25px;
+
+}
+.worker i ,.card-title2 i{
+    color:#463a7c;
+    font-size: 28px;
+
+}
+.card-title2 i{
+    font-size: 24px;
+}
+.small-image{
+ width:150px;
+ margin:auto;
+ display: table
+ ;
+}
+.card-color{
+    background: rgb(80,67,137);
+/*background: linear-gradient(200deg, rgb(241, 239, 249) 0%, rgba(80,67,137,1) 100%);*/
+    
+}
+.card-title{
+    color:white;
+  
+  
+}
+.card-title ,.card-title2{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-title span ,.card-title2 span{
+ margin-right: 4%;
+}
+.card-title2{
+    color:black
+}
+
+.btn-style2{
+    border:1px solid #463a7c
+}
+.card-name ,.card-text{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+}
+.card-first{
+    background-color: #463a7c;
+    color:white;
+}
+.card1{
+    padding: 3%;
+    background-color: #463a7c;
+    color:white;
+}
+.card{
+    padding:3%
+}
+.Artical .card img{
+    height:257px
+}
+.Artical .card .card-name{
+    height:64px
+}
+.Artical .card .card-text{
+
+    height:58px
+}
+.Artical .card .btn-style{
+    margin-bottom: 0;
+}
+.circle ,.empty-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid rgb(255, 251, 251);
+    background-color:#463a7c;
+    color:white ;
+    text-align: center;
+    position: relative
+
+}
+.circle span ,.empty-circle span{
+  
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:40%;
+
+    right:25%
+}
+.empty-circle {
+
+    background-color:white ;
+    color: #463a7c;
+    border: 3px solid #463a7c;
+}
+.data-people{
+    background-color: white;
+    padding: 2%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
